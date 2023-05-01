@@ -33,7 +33,7 @@ async function startApolloServer() {
     }),
   });
   const { url } = await startStandaloneServer(server);
-  console.log("server is running");
+  console.log("server is running. Query at " + url);
 }
 
 startApolloServer();
